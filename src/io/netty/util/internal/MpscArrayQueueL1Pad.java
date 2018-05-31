@@ -1,0 +1,30 @@
+/*
+ * Decompiled with CFR 0_129.
+ */
+package io.netty.util.internal;
+
+import io.netty.util.internal.ConcurrentCircularArrayQueue;
+
+abstract class MpscArrayQueueL1Pad<E>
+extends ConcurrentCircularArrayQueue<E> {
+    long p10;
+    long p11;
+    long p12;
+    long p13;
+    long p14;
+    long p15;
+    long p16;
+    long p30;
+    long p31;
+    long p32;
+    long p33;
+    long p34;
+    long p35;
+    long p36;
+    long p37;
+
+    public MpscArrayQueueL1Pad(int capacity) {
+        super(capacity);
+    }
+}
+

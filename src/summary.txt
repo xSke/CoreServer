@@ -1,0 +1,120 @@
+Summary for coreserver-1.0-SNAPSHOT.jar
+Decompiled with CFR 0_129
+
+
+com.google.common.base.Utf8
+----------------------------
+
+isWellFormedSlowPath(byte[] int int )
+  Unable to fully structure code
+
+
+com.google.common.util.concurrent.Futures
+----------------------------
+
+setOneValue(int java.util.concurrent.Future<? extends V> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+run()
+  Exception : java.lang.ClassCastException: org.benf.cfr.reader.bytecode.analysis.parse.statement.Nop cannot be cast to org.benf.cfr.reader.bytecode.analysis.parse.statement.TryStatement
+
+
+com.google.common.util.concurrent.Monitor
+----------------------------
+
+enterWhenUninterruptibly(com.google.common.util.concurrent.Monitor$Guard long java.util.concurrent.TimeUnit )
+  Loose catch block
+
+
+io.netty.handler.codec.ByteToMessageDecoder
+----------------------------
+
+channelRead(io.netty.channel.ChannelHandlerContext java.lang.Object )
+  Loose catch block
+
+
+io.netty.handler.codec.MessageToMessageEncoder
+----------------------------
+
+write(io.netty.channel.ChannelHandlerContext java.lang.Object io.netty.channel.ChannelPromise )
+  Unable to fully structure code
+
+
+io.netty.handler.codec.ReplayingDecoder
+----------------------------
+
+callDecode(io.netty.channel.ChannelHandlerContext io.netty.buffer.ByteBuf java.util.List<java.lang.Object> )
+  Unable to fully structure code
+
+
+io.netty.handler.codec.compression.SnappyFramedDecoder
+----------------------------
+
+decode(io.netty.channel.ChannelHandlerContext io.netty.buffer.ByteBuf java.util.List<java.lang.Object> )
+  Unable to fully structure code
+
+
+io.netty.handler.codec.http.HttpContentEncoder
+----------------------------
+
+encode(io.netty.channel.ChannelHandlerContext io.netty.handler.codec.http.HttpObject java.util.List<java.lang.Object> )
+  Unable to fully structure code
+
+
+io.netty.util.ThreadDeathWatcher
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+io.netty.util.concurrent.DefaultPromise
+----------------------------
+
+await0(long boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [14[DOLOOP]], but top level block is 7[TRYBLOCK]
+
+
+io.netty.util.concurrent.GlobalEventExecutor
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+io.netty.util.internal.JavassistTypeParameterMatcherGenerator
+----------------------------
+
+generate(java.lang.Class<?> java.lang.ClassLoader )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 3[CATCHBLOCK]
+
+
+io.netty.util.internal.ThreadLocalRandom
+----------------------------
+
+getInitialSeedUniquifier()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[DOLOOP]], but top level block is 0[TRYBLOCK]
+
+
+io.netty.util.internal.chmv8.CountedCompleter
+----------------------------
+
+tryComplete()
+  Unable to fully structure code
+propagateCompletion()
+  Unable to fully structure code
+
+
+io.netty.util.internal.chmv8.ForkJoinPool
+----------------------------
+
+tryHelpStealer(io.netty.util.internal.chmv8.ForkJoinPool$WorkQueue io.netty.util.internal.chmv8.ForkJoinTask<?> )
+  Unable to fully structure code
+tryTerminate(boolean boolean )
+  Unable to fully structure code
+
+
+org.apache.http.impl.execchain.RedirectExec
+----------------------------
+
+execute(org.apache.http.conn.routing.HttpRoute org.apache.http.client.methods.HttpRequestWrapper org.apache.http.client.protocol.HttpClientContext org.apache.http.client.methods.HttpExecutionAware )
+  Loose catch block
